@@ -2,5 +2,30 @@ Uberti Abril
 Cardozo Federico
 Canepa Joaquin
 
-C)Si mientras forkee a ALFA
-D)Los datos que tenia en mi repositorios no se pierden mientras no los sobreescriba.
+Cardozo Federico(GAMMA):
+a-¿Como actualizo mi repositorio, al estado que esté el repo que hice FORK?
+- Lo hice desde la pagina web de gitHub donde dice "Sync fork" - Update Branch
+
+b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
+- No, salvo que ALFA hada un fork de GAMMA
+
+Canepa Joaquin(BETA):
+c)¿Puede GAMMA actualizar su FORK al estado del fork de ALFA?
+c-Si mientras forkee a ALFA
+D)¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quiero actualizar
+el fork?
+d-Los datos que tenia en mi repositorios no se pierden mientras no los sobreescriba.
+
+Uberti Abril(ALFA):
+e) realizar un listado, paso a paso ,de los comando necesarios para resolver este TP por
+orden de ejecución de los mismos junto con los apellidos y nombre de los alumnos
+
+e-Primero que nada me paro adentro de la carpeta: Cd 
+En mi caso use git clone para clonar todo el contenido una vez que lo hice modifique
+El txt y puse git status para ver el estado 
+Despues usamos git add .
+Agregamos un comentario con git commit -m ""
+Lo subimos con git push
+Actualizamos y ponemos git pull
+una vez ya hecho esto solo queda crear otro txt para estas respuestas 
+Subirlos con los comandos ya dichos
